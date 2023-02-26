@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    /* Color Palet */
+    --color-00: #fff;
+    --color-01: #029688;
+    --color-02: #0286A1;
+    --color-03: #08528A;
+    --color-04: #0232A1;
+    --color-05: #020896;
+    --color-06: #000;
+    /*Font*/
+    --font-00: Arial, Helvetica, sans-serif;
+    --font-01: 'Press Start 2P', cursive;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: var(--color-03);
+    min-width: 450px;
+}
+
+header {
+    background-color: var(--color-00);
+    width: 60%;
+    min-height: 70px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+header h1 {
+    font-size: 2em;
+    font-family: var(--font-01);
+    font-variant: small-caps;
+    color: var(--color-02);
+    text-shadow: 1px 1px 2px var(--color-06);
+}
+
+header h2 {
+    color: var(--color-01);
+    font-variant: small-caps;
+}
+
+section {
+    width: 60%;
+    min-height: 100px;
+    background-color: var(--color-00);
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: var(--font-00);
+    font-size: 1.1em;
+}
+
+div {
+    padding: 20px;
+}
+
+.card{
+    border: 1px solid black;
+    background-color: gainsboro;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+.card-title {
+    color: rgb(255, 234, 0);
+    text-shadow: 1px 1px 1px black;
+}
+
+p {
+padding: 10px 0px;
+}

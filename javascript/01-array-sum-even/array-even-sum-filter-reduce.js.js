@@ -10,7 +10,6 @@ function sumEvenNumbers (num){
     console.log(`The sum of all even numbers is: ${evenNumbersSum}`);
 
     return evenNumbersSum
-
 }
 
 sumEvenNumbers(numbers);
