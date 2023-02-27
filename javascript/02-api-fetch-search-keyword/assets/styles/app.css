@@ -8,7 +8,8 @@
     --color-03: #08528A;
     --color-04: #0232A1;
     --color-05: #020896;
-    --color-06: #000;
+    --color-06: rgb(105, 105, 105);
+    --color-07: #000;
     /*Font*/
     --font-00: Arial, Helvetica, sans-serif;
     --font-01: 'Press Start 2P', cursive;
@@ -27,7 +28,7 @@ body {
 }
 
 header {
-    background-color: var(--color-00);
+    background-color: var(--color-07);
     width: 60%;
     min-height: 70px;
     margin: auto;
@@ -44,7 +45,7 @@ header h1 {
     font-family: var(--font-01);
     font-variant: small-caps;
     color: var(--color-02);
-    text-shadow: 1px 1px 2px var(--color-06);
+    text-shadow: 1px 1px 2px var(--color-07);
 }
 
 header h2 {
@@ -55,7 +56,7 @@ header h2 {
 section {
     width: 60%;
     min-height: 100px;
-    background-color: var(--color-00);
+    background-color: var(--color-02);
     margin: auto;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -67,9 +68,9 @@ div {
     padding: 20px;
 }
 
-.card{
-    border: 1px solid black;
-    background-color: gainsboro;
+.card {
+    border: 1px solid var(--color-07);
+    background-color: var(--color-00);
     border-radius: 8px;
     text-align: justify;
 }
@@ -80,5 +81,5 @@ div {
 }
 
 p {
-padding: 10px 0px;
+    padding: 10px 0px;
 }
