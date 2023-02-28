@@ -1,0 +1,1 @@
+## 3 - Given an HTML document with a button and a paragraph element, write JavaScript code to add an event listener to the button that changes the text of the paragraph element when the button is clicked.

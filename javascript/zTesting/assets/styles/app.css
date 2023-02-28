@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    margin-top: 50px;
+}
+
+section {
+    width: 60%;
+    text-align: justify;
+    margin: auto;
+}
+
+section p {
+    text-indent: 40px;
+    padding-top: 10px;
+}
+
+
+
+.holder {
+    background-color: lightseagreen;
+    width: 60%;
+    min-height: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.square {
+    background-color: orange;
+    width: 50%;
+    min-height: 100px;
+    margin: auto;
+}
+
+.inner-square {
+    background-color: white;
+    width: 40%;
+    min-height: 100px;
+    margin: auto;
+}
+
+.keyboard {
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.keyboard button {
+    min-width: 50px;
+    margin: 20px 20px 0px 0px;
+}

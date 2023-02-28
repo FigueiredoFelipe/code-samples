@@ -64,6 +64,10 @@ section {
     font-size: 1.1em;
 }
 
+section input {
+    margin-left: 20px;
+}
+
 div {
     padding: 20px;
 }

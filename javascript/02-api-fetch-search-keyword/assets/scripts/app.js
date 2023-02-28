@@ -1,17 +1,6 @@
-// 2) - Create a small web application that:
-// a) uses an API to fetch data and;
-// b) display it on the page.
-// The application should have:
-// c) a search bar that allows the user to:
-// d) search for data based on a keyword.
-
-// if IE, USE ANOTHER BROWSER
-
-
-
 const movies = []
 
-async function fetchDataAwait() {
+const titles = async function fetchDataAwait() {
     const response = await fetch('https://swapi.dev/api/films/')
     const data = await response.json()
 
@@ -19,7 +8,7 @@ async function fetchDataAwait() {
 }
 
 
-const titles = fetchDataAwait;
+// const titles = fetchDataAwait;
 const displayMovie = document.getElementById('movies-list')
 
 
