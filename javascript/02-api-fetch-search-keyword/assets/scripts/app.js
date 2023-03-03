@@ -38,8 +38,8 @@ titles().then(data => {
 
 
 
-const input = document.querySelector('#inp')
-const button = document.getElementById('fetch-btn')
+const input = this.document.querySelector('#inp')
+const button = this.document.getElementById('fetch-btn')
 
 
 function handleFilter() {

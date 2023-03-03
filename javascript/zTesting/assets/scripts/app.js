@@ -9,7 +9,6 @@ const buttonTwo = document.getElementsByTagName('button')[1]
 const buttonThree = document.getElementsByTagName('button')[2]
 
 
-
 buttonOne.addEventListener('click', itsWorking)
 buttonTwo.addEventListener('click', itsWorking)
 buttonThree.addEventListener('click', itsWorking)
